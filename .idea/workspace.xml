@@ -10,8 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="784e2440-1484-4dc4-8b4c-1715ad05daff" name="Default Changelist" comment="feat: Implemented add_new_drinks">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="784e2440-1484-4dc4-8b4c-1715ad05daff" name="Default Changelist" comment="feat: Implemented update_drink_details">
       <change beforePath="$PROJECT_DIR$/starter_code/backend/src/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/starter_code/backend/src/api.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595784180593</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat: Implemented update_drink_details">
+      <created>1595786667418</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1595786667418</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,7 +130,8 @@
     <MESSAGE value="feat: Implemented get_drinks" />
     <MESSAGE value="feat: Implemented get_drinks_details" />
     <MESSAGE value="feat: Implemented add_new_drinks" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Implemented add_new_drinks" />
+    <MESSAGE value="feat: Implemented update_drink_details" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Implemented update_drink_details" />
   </component>
   <component name="WindowStateProjectService">
     <state x="520" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595766224542">

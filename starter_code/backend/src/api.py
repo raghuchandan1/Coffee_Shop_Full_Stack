@@ -124,17 +124,17 @@ def update_drink_details(payload, drink_id):
     if drink is None:
         abort(404)
     try:
-        body=request.get_json()
-        new_title=body.get('title')
-        new_recipe=body.get('recipe')
+        body = request.get_json()
+        new_title = body.get('title')
+        new_recipe = body.get('recipe')
         if new_title:
             drink.title = new_title
         if new_recipe:
             drink.recipe = new_recipe
         drink.update()
         return jsonify({
-            'success':True,
-            'drinks':[drink.long()]
+            'success': True,
+            'drinks': [drink.long()]
         })
     except:
         abort(422)
@@ -150,6 +150,24 @@ def update_drink_details(payload, drink_id):
     returns status code 200 and json {"success": True, "delete": id} where id is the id of the deleted record
         or appropriate status code indicating reason for failure
 '''
+
+
+@app.route('/drinks/<int:drink_id>', methods=['DELETE'])
+@requires_auth('delete:drinks')
+def remove_drink(payload, drink_id):
+    # Another way of retrieving drink
+    drink = Drink.query.filter(Drink.id == id).one_or_none()
+    if drink is None:
+        abort(404)
+    try:
+        drink.delete()
+        return jsonify({
+            'success': True,
+            'delete': id
+        })
+    except:
+        abort(422)
+
 
 ## Error Handling
 '''
