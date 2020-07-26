@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="784e2440-1484-4dc4-8b4c-1715ad05daff" name="Default Changelist" comment="Updated README.md">
+      <change beforePath="$PROJECT_DIR$/starter_code/backend/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/starter_code/backend/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter_code/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/starter_code/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter_code/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/starter_code/frontend/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1fBkpQi4P3S5dYPoswE29k74n0d" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../02_trivia_api" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="784e2440-1484-4dc4-8b4c-1715ad05daff" name="Default Changelist" comment="" />
+      <created>1595699055663</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595699055663</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Updated README.md">
+      <created>1595701235857</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1595701235858</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updated README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated README.md" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1595700517190">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595700517190" />
+    <state x="607" y="310" key="Github.ShareDialog" timestamp="1595700504322">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="607" y="310" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1595700504322" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1595740236272">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1595740236272" />
+  </component>
+</project>
