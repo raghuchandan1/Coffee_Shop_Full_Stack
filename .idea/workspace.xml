@@ -10,10 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="784e2440-1484-4dc4-8b4c-1715ad05daff" name="Default Changelist" comment="feat: Implemented requires_auth decorator">
+    <list default="true" id="784e2440-1484-4dc4-8b4c-1715ad05daff" name="Default Changelist" comment="feat: Implemented get_drinks">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/starter_code/backend/src/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/starter_code/backend/src/api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter_code/backend/src/auth/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/starter_code/backend/src/auth/auth.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595764676891</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: Implemented get_drinks">
+      <created>1595775504545</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1595775504546</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,7 +107,8 @@
     <MESSAGE value="feat: Implemented get_token and check_permission methods" />
     <MESSAGE value="feat: Implemented verify_decode_jwt" />
     <MESSAGE value="feat: Implemented requires_auth decorator" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Implemented requires_auth decorator" />
+    <MESSAGE value="feat: Implemented get_drinks" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Implemented get_drinks" />
   </component>
   <component name="WindowStateProjectService">
     <state x="520" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595766224542">
