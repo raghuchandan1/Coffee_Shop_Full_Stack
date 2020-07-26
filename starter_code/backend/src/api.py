@@ -17,7 +17,7 @@ CORS(app)
 !! NOTE THIS MUST BE UNCOMMENTED ON FIRST RUN
 '''
 
-db_drop_and_create_all()
+# db_drop_and_create_all()
 
 ## ROUTES
 '''
@@ -125,12 +125,11 @@ def update_drink_details(payload, drink_id):
         abort(404)
     try:
         body = request.get_json()
-        new_title = body.get('title')
-        new_recipe = body.get('recipe')
-        if new_title:
-            drink.title = new_title
-        if new_recipe:
-            drink.recipe = new_recipe
+        if 'title' in body:
+            drink.title = body['title']
+
+        if 'recipe' in body:
+            drink.recipe = body['recipe']
         drink.update()
         return jsonify({
             'success': True,
@@ -163,10 +162,10 @@ def remove_drink(payload, drink_id):
         drink.delete()
         return jsonify({
             'success': True,
-            'delete': id
+            'delete': drink_id
         })
     except:
-        abort(422)
+       abort(422)
 
 
 ## Error Handling
