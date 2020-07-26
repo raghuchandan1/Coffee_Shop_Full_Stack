@@ -10,12 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="784e2440-1484-4dc4-8b4c-1715ad05daff" name="Default Changelist" comment="fix: Updated error codes returned">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter_code/backend/src/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/starter_code/backend/src/api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter_code/backend/src/database/database.db" beforeDir="false" afterPath="$PROJECT_DIR$/starter_code/backend/src/database/database.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter_code/backend/udacity-fsnd-udaspicelatte.postman_collection.json" beforeDir="false" afterPath="$PROJECT_DIR$/starter_code/backend/udacity-fsnd-udaspicelatte.postman_collection.json" afterDir="false" />
-    </list>
+    <list default="true" id="784e2440-1484-4dc4-8b4c-1715ad05daff" name="Default Changelist" comment="fix: Updated error in delete_drinks method" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -137,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595793392637</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="fix: Updated error in delete_drinks method">
+      <created>1595794949392</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1595794949392</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -166,7 +168,8 @@
     <MESSAGE value="feat: Implemented errorhandler for 404" />
     <MESSAGE value="feat: Implemented errorhandler for AuthError" />
     <MESSAGE value="fix: Updated error codes returned" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: Updated error codes returned" />
+    <MESSAGE value="fix: Updated error in delete_drinks method" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: Updated error in delete_drinks method" />
   </component>
   <component name="WindowStateProjectService">
     <state x="520" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595766224542">
