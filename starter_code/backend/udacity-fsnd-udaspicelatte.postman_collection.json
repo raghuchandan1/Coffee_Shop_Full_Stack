@@ -1,7 +1,7 @@
 {
-	"id": "6715d3cb-b8d1-409c-906a-ea23d9b96ad2",
+	"id": "5f184e8b-85a0-4229-8f29-2294c69afcbc",
 	"name": "udacity-fsnd-udaspicelatte",
-	"timestamp": "2020-07-26T20:17:07.633Z",
+	"timestamp": "2020-07-26T20:37:38.074Z",
 	"collection_id": "3203d777-b3e3-41b0-85f8-e68917cb0d6b",
 	"folder_id": 0,
 	"environment_id": "0",
@@ -12,7 +12,7 @@
 			"id": "500149c1-f168-49b0-949e-2582df31210a",
 			"name": "/drinks",
 			"url": "http://localhost:5000/drinks",
-			"time": 583,
+			"time": 675,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -32,7 +32,7 @@
 				}
 			},
 			"times": [
-				583
+				675
 			],
 			"allTests": [
 				{
@@ -45,7 +45,7 @@
 			"id": "ead017f9-8ce4-4c7b-a881-ee9706741473",
 			"name": "/drinks-detail",
 			"url": "http://localhost:5000/drinks-detail",
-			"time": 541,
+			"time": 512,
 			"responseCode": {
 				"code": 401,
 				"name": "UNAUTHORIZED"
@@ -60,7 +60,7 @@
 				}
 			},
 			"times": [
-				541
+				512
 			],
 			"allTests": [
 				{
@@ -72,7 +72,7 @@
 			"id": "39d9ba19-79c8-43c1-a9d5-9f7100ad918f",
 			"name": "/drinks",
 			"url": "http://localhost:5000/drinks",
-			"time": 676,
+			"time": 514,
 			"responseCode": {
 				"code": 401,
 				"name": "UNAUTHORIZED"
@@ -87,7 +87,7 @@
 				}
 			},
 			"times": [
-				676
+				514
 			],
 			"allTests": [
 				{
@@ -99,7 +99,7 @@
 			"id": "d79f0d51-22cf-44b9-8cd0-113445d06c81",
 			"name": "/drinks/1",
 			"url": "http://localhost:5000/drinks/1",
-			"time": 535,
+			"time": 509,
 			"responseCode": {
 				"code": 401,
 				"name": "UNAUTHORIZED"
@@ -114,7 +114,7 @@
 				}
 			},
 			"times": [
-				535
+				509
 			],
 			"allTests": [
 				{
@@ -126,7 +126,7 @@
 			"id": "b58d6a86-da5c-4130-94a5-3c023732c5d8",
 			"name": "/drinks/1",
 			"url": "http://localhost:5000/drinks/1",
-			"time": 533,
+			"time": 509,
 			"responseCode": {
 				"code": 401,
 				"name": "UNAUTHORIZED"
@@ -141,7 +141,7 @@
 				}
 			},
 			"times": [
-				533
+				509
 			],
 			"allTests": [
 				{
@@ -153,7 +153,7 @@
 			"id": "38c71b49-ddf7-46f8-937b-5ae5e4f5f173",
 			"name": "/drinks",
 			"url": "http://localhost:5000/drinks",
-			"time": 539,
+			"time": 514,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -173,7 +173,7 @@
 				}
 			},
 			"times": [
-				539
+				514
 			],
 			"allTests": [
 				{
@@ -186,7 +186,7 @@
 			"id": "c8bdd4ca-6786-4ef7-9381-02290254a54b",
 			"name": "/drinks-detail",
 			"url": "http://localhost:5000/drinks-detail",
-			"time": 2298,
+			"time": 1719,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -201,7 +201,7 @@
 				}
 			},
 			"times": [
-				2298
+				1719
 			],
 			"allTests": [
 				{
@@ -213,7 +213,7 @@
 			"id": "00136e0f-874a-48de-82b7-7a113424740b",
 			"name": "/drinks",
 			"url": "http://localhost:5000/drinks",
-			"time": 1955,
+			"time": 1579,
 			"responseCode": {
 				"code": 401,
 				"name": "UNAUTHORIZED"
@@ -228,7 +228,7 @@
 				}
 			},
 			"times": [
-				1955
+				1579
 			],
 			"allTests": [
 				{
@@ -240,7 +240,7 @@
 			"id": "e7c21e79-e5e7-498a-80ff-10d94a39a4b9",
 			"name": "/drinks/1",
 			"url": "http://localhost:5000/drinks/1",
-			"time": 2178,
+			"time": 1486,
 			"responseCode": {
 				"code": 401,
 				"name": "UNAUTHORIZED"
@@ -255,7 +255,7 @@
 				}
 			},
 			"times": [
-				2178
+				1486
 			],
 			"allTests": [
 				{
@@ -267,7 +267,7 @@
 			"id": "145ebce2-1ce7-4fd4-a605-cc6aeeb46974",
 			"name": "/drinks/1",
 			"url": "http://localhost:5000/drinks/1",
-			"time": 2331,
+			"time": 1559,
 			"responseCode": {
 				"code": 401,
 				"name": "UNAUTHORIZED"
@@ -282,7 +282,7 @@
 				}
 			},
 			"times": [
-				2331
+				1559
 			],
 			"allTests": [
 				{
@@ -294,7 +294,7 @@
 			"id": "f6b95082-2d60-46b9-acfc-b7576244a995",
 			"name": "/drinks",
 			"url": "http://localhost:5000/drinks",
-			"time": 530,
+			"time": 521,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -314,7 +314,7 @@
 				}
 			},
 			"times": [
-				530
+				521
 			],
 			"allTests": [
 				{
@@ -327,7 +327,7 @@
 			"id": "b0945293-2392-450d-a974-9e8dded9306d",
 			"name": "/drinks-detail",
 			"url": "http://localhost:5000/drinks-detail",
-			"time": 2072,
+			"time": 1508,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -347,7 +347,7 @@
 				}
 			},
 			"times": [
-				2072
+				1508
 			],
 			"allTests": [
 				{
@@ -360,7 +360,7 @@
 			"id": "a9d46973-42bd-409d-a9d1-f451c2ab1e48",
 			"name": "/drinks",
 			"url": "http://localhost:5000/drinks",
-			"time": 2188,
+			"time": 1936,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -375,7 +375,7 @@
 				}
 			},
 			"times": [
-				2188
+				1936
 			],
 			"allTests": [
 				{
@@ -387,7 +387,7 @@
 			"id": "94674939-a098-4252-a119-4d172d46ffba",
 			"name": "/drinks/1",
 			"url": "http://localhost:5000/drinks/1",
-			"time": 3483,
+			"time": 1984,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -407,7 +407,7 @@
 				}
 			},
 			"times": [
-				3483
+				1984
 			],
 			"allTests": [
 				{
@@ -420,7 +420,7 @@
 			"id": "17bd2cec-10e0-4900-9b0e-67bd25c39aad",
 			"name": "/drinks/1",
 			"url": "http://localhost:5000/drinks/1",
-			"time": 2385,
+			"time": 1683,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -435,7 +435,7 @@
 				}
 			},
 			"times": [
-				2385
+				1683
 			],
 			"allTests": [
 				{
@@ -445,7 +445,7 @@
 		}
 	],
 	"count": 1,
-	"totalTime": 22827,
+	"totalTime": 17208,
 	"collection": {
 		"requests": [
 			{
