@@ -56,7 +56,7 @@ def get_drinks():
 
 
 @app.route('/drinks-detail')
-@requires_auth('get:drinks-details')
+@requires_auth('get:drinks-detail')
 def get_drinks_details(payload):
     try:
         drinks = Drink.query.order_by(Drink.title).all()
@@ -80,6 +80,29 @@ def get_drinks_details(payload):
     returns status code 200 and json {"success": True, "drinks": drink} where drink an array containing only the newly created drink
         or appropriate status code indicating reason for failure
 '''
+
+
+@app.route('/drinks', methods=['POST'])
+@requires_auth('post:drinks')
+def add_new_drink(payload):
+    body = request.get_json()
+    if not ('title' in body and 'recipe' in body):
+        abort(422)
+    new_title = body.get('title', None)
+    new_recipe = body.get('recipe', None)
+    try:
+        # create new drink
+        new_drink = Drink(title=new_title, recipe=json.dumps([new_recipe]))
+        # add drink to database
+        new_drink.insert()
+
+        return jsonify({
+            'success': True,
+            'drinks': new_drink.long()
+        })
+    except:
+        abort(422)
+
 
 '''
 @TODO implement endpoint
