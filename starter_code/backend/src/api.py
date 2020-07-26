@@ -17,7 +17,7 @@ CORS(app)
 !! NOTE THIS MUST BE UNCOMMENTED ON FIRST RUN
 '''
 
-# db_drop_and_create_all()
+db_drop_and_create_all()
 
 ## ROUTES
 '''
@@ -34,8 +34,8 @@ CORS(app)
 def get_drinks():
     try:
         drinks = Drink.query.order_by(Drink.title).all()
-        if len(drinks) == 0:
-            abort(404)
+        # if len(drinks) == 0:
+        #    abort(404)
         formatted_drinks = [drink.short() for drink in drinks]
         return jsonify({
             'success': True,
@@ -60,8 +60,8 @@ def get_drinks():
 def get_drinks_details(payload):
     try:
         drinks = Drink.query.order_by(Drink.title).all()
-        if len(drinks) == 0:
-            abort(404)
+        # if len(drinks) == 0:
+        #    abort(404)
         formatted_drinks = [drink.long() for drink in drinks]
         return jsonify({
             'success': True,
@@ -156,7 +156,7 @@ def update_drink_details(payload, drink_id):
 @requires_auth('delete:drinks')
 def remove_drink(payload, drink_id):
     # Another way of retrieving drink
-    drink = Drink.query.filter(Drink.id == id).one_or_none()
+    drink = Drink.query.get(drink_id)
     if drink is None:
         abort(404)
     try:
@@ -211,7 +211,7 @@ def not_found(error):
 
 
 '''
-@TODO implement error handler for AuthError
+@DONE implement error handler for AuthError
     error handler should conform to general task above 
 '''
 
